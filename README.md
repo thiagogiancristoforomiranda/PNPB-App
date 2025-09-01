@@ -16,6 +16,7 @@ Um aplicativo web interativo que permite aos usuários explorar as trilhas do Pa
 📍 Marcadores interativos mostrando início e fim de cada trilha
 
 🛠️ Tecnologias Utilizadas
+
 HTML5 - Estrutura do projeto
 
 CSS3 - Estilização com variáveis CSS e design responsivo
