@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Trilhas - Parque Nacional da Pedra Branca</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Parque Nacional da Pedra Branca</h1>
+        <p>Descubra as trilhas e sua biodiversidade</p>
+    </header>
+    
+    <div class="container">
+        <section class="intro fade-in">
+            <h2>Explore as Trilhas</h2>
+            <p>Selecione uma trilha para conhecer seu bioma, fauna e flora características e visualize sua localização no mapa.</p>
+        </section>
+        
+        <div class="app-container">
+            <section class="trail-selection fade-in">
+                <h2>Selecione uma Trilha</h2>
+                <div class="trail-list" id="trailList">
+                    <!-- As trilhas serão inseridas aqui via JavaScript -->
+                </div>
+                <button id="showInfoBtn">Mostrar Informações da Trilha</button>
+            </section>
+            
+            <section class="map-container fade-in">
+                <div class="map-overlay" id="mapOverlay">Selecione uma trilha</div>
+                <div id="map"></div>
+            </section>
+        </div>
+        
+        <section class="results" id="results">
+            <!-- As informações serão inseridas aqui via JavaScript -->
+        </section>
+    </div>
+    
+    <footer>
+        <p>Parque Nacional da Pedra Branca &copy; 2023 - Preservando a Mata Atlântica</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
