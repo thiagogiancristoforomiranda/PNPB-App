@@ -2,6 +2,7 @@
 Um aplicativo web interativo que permite aos usuários explorar as trilhas do Parque Nacional da Pedra Branca, visualizando informações sobre biomas, fauna e flora específicas de cada trilha.
 
 ✨ Funcionalidades
+
 🗺️ Mapa interativo com visualização das trilhas usando Leaflet
 
 📱 Design responsivo que funciona perfeitamente em mobile e desktop
